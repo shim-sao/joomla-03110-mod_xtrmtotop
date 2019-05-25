@@ -1,0 +1,20 @@
+<nav class="nav-breadcrumb">
+  <div aria-label="" role="navigation">
+    <ul itemscope="" itemtype="https://schema.org/BreadcrumbList" class="breadcrumb">
+      <li class="active">
+        <span class="divider icon-location"></span>
+      </li>
+
+      {% for link in page.breadcrumb %}
+      <li itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem" class="active">
+        {% if link.href %}
+        <a itemprop="name" href="{{ link.href }}">{{ link.name }}</a>
+        {% else %}
+        <span itemprop="name">{{ link.name }}</span>
+        {% endif %}
+        <meta itemprop="position" content="{{ forloop.index }}">
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</nav>

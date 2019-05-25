@@ -1,0 +1,26 @@
+<footer id="content-footer" class="container-fluid">
+  <div class="container">
+    <a href="/" target="_self" title="logo" rel="home" class="navbar-brand navbar-brand-bottom">
+      <img src="{{ site.assets.img | append: 'logo.svg' }}" alt="logo" />
+    </a>
+
+    <div class="nav-copyright">
+        © {{ site.author }} {{ page.copyright.date_start }} - {{ site.copyright.date_end }}<br />
+        {{ site.title | default: site.github.repository_name }} repository maintained by 
+        <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a><br />
+        Developed using <a href="https://jekyllrb.com" target="_blank">Jekyll</a> exclusively for {{ site.author }}.
+    </div>
+
+    <ul class="nav-menu nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link" target="_blank" href="{{ site.github.repository_url }}" title="Repo">Repo</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" target="_blank" href="{{ site.github.repository_url }}/issues/" title="Issues">Issues</a>
+      </li>
+      <li class="nav-item">
+          <a class="nav-link" target="_blank" href="{{ site.github.owner_name }}" title="Profil">Profil</a>
+      </li>
+    </ul>
+  </div>
+</footer>

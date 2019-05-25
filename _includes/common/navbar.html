@@ -1,0 +1,40 @@
+<nav id="navbar-main-top" class="navbar navbar-expand-lg navbar-dark">
+  <div class="container">
+    <!-- logo -->
+    {% if site.url %}
+    <a id="navbar-brand-logo" class="navbar-brand navbar-brand-logo" href="{{ site.url }}">
+    {% endif %}
+      {% if site.navbar.brand.type == "img" && site.navbar.brand.img %}
+      <img src="{{ site.assets.img | append: site.navbar.brand.img }}" alt="logo" />
+      {% endif %}
+      {% if site.navbar.brand.type == "icon" && site.navbar.brand.icon %}
+      <span class="glyphicon {{ site.navbar.brand.icon }}"></span>
+      {% endif %}
+      {% if site.navbar.brand.title %}
+      <span class="navbar-logo-text">{{ site.navbar.brand.title }}</span>
+      {% endif %}
+    {% if site.url %}
+    </a>
+    {% endif %}
+
+    <!-- menu toggler -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav">
+      {% for link in page.menu %}
+        <li class="nav-item">
+          <a class="nav-link" href="{{ link.href }}">{{ link.name }}</a>
+        </li>
+      {% endfor %}
+      </ul>
+      <ul class="nav nav-lang navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link-lang" href="{{ page.menuLang.en }}"><img src="{{ site.assets.img | append: 'en.gif' }}" alt="English (UK)" title="English (UK)"></a>
+          <a class="nav-link-lang" href="{{ page.menuLang.fr }}"><img src="{{ site.assets.img | append: 'fr.gif' }}" alt="Français (FR)" title="Français (FR)"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

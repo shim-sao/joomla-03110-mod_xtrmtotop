@@ -1,0 +1,7 @@
+{% for dl in page.downloads %}
+<tr>
+  <td><a class="dl-lnk" href="{{ dl.url }}/{{ dl.name }}" target="_blank" title="{{ dl.name }} ({{ dl.date }})">{{ dl.name }} ({{ dl.date }})</a></td>
+  <td>{{ dl.version }}</td>
+  <td>{{ dl.size }}</td>
+</tr>
+{% endfor %}

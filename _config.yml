@@ -1,0 +1,50 @@
+# ##
+# WARNING: absolute use space instead of tab to indent file.
+# ##
+
+# reference site
+url: "https://www.xtrmaddons.com/"
+cname: "https://github.joomla.mod-xtrmtotop.xtrmaddons.com/"
+url_repo: "https://github.com/shim-sao/joomla-03110-mod_xtrmtotop/"
+
+# company or user name
+author: "XtrmAddons"
+
+# generic title.
+title: XtrmAddons Joomla Module ToTop
+
+# generic description.
+description: .
+
+# enable preloader
+preloader: default
+
+# comments with disqus
+disqus: "xtrmaddons"
+
+# Generic assets links.
+assets:
+  css: "https://github.assets.xtrmaddons.com/assets/css"
+  img: "https://github.assets.xtrmaddons.com/assets/images/"
+  js: "https://github.assets.xtrmaddons.com/assets/js"
+
+# navbar
+navbar:
+  brand:
+    icon: "glyphicon-home"
+    img: "logo-name.svg"
+    title: ""
+    type: "img"
+
+# navbar brand
+copyright:
+  date_start: "2007"
+  date_end: "2019"
+
+# Google Analytics tracking ID
+google:
+  analytics: "UA-107731670-1"
+  adsense:
+    client: "ca-pub-1175089473544116"
+    slot: "6837462325"
+    format: "auto"

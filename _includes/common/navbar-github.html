@@ -1,0 +1,41 @@
+<style>
+@media (max-width: 1024px) {
+  .navbar {
+    min-height: 45px;
+  }
+  .navbar-brand {
+    position: absolute;
+    top: 0;
+  }
+  .navbar-toggler {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar-collapse {
+    margin-top: 45px;
+  }
+}
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">GitHub</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor02">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.url_repo }}">Repository</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="{{ site.url_repo}}issues/">Issues</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.xtrmaddons.com/{{ page.langISOlower }}/{{ page.langISOlower }}-module-xtrmtotop/description">Documentation</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+

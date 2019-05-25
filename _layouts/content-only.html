@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en-US' }}">
+  <head>
+    {% include common/header-only.html %}
+    <script src="{{ site.assets.js }}{{ 'iframeResizer.contentWindow.min.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+  </head>
+
+  <body>    
+    <section id="content-section" class="container-fluid">
+
+      <div id="content-layer container">
+        {% include common/navbar-github.html %}
+        {{ content }}
+      </div>
+    </section>
+
+    {% include extra/bootstrap-js.html %}
+    {% include extra/google-analytics.html %}
+  </body>
+</html>
