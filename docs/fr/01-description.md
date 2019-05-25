@@ -11,7 +11,7 @@ downloads:
 url: /download/release
 date: 2019-05-25 13:50:00 +0000
 version: 4.0.00.00
-size: 0 Ko
+size: 9.6 KB
 ---
 
 <article class="main-content d-flex">
