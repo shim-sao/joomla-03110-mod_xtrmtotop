@@ -1,0 +1,58 @@
+{
+  "builder_version": "0.4",
+  "author": {
+	  "name": "shim-sao",
+	  "email": "contact@xtrmaddons.com",
+    "url": "https://github.com/shim-sao/"
+  },
+  "category": "XtrmAddons",
+  "client_id": "site",
+  "code": "03110",
+  "copyright": "Copyright 2015-2019 XtrmAddons.com. All rights reserved.",
+  "description": "XtrmAddons Joomla Module ToTop.",
+  "download": {
+    "debug": "https://github.joomla.mod-xtrmtotop.xtrmaddons.com/download/debug",
+    "release": "https://github.joomla.mod-xtrmtotop.xtrmaddons.com/download/release"
+  },
+  "update_file": {
+    "debug": "update-4.0.xml",
+    "release": "update-4.0.xml"
+  },
+  "element": "mod_xtrmtotop",
+  "extension": "mod_xtrmtotop",
+  "folder": "modules",
+  "framework": "Joomla",
+  "group": "",
+  "install": "",
+  "license_link": "https://www.gnu.org/licenses/gpl-3.0.html GNU/GPL",
+  "manifest": "mod_xtrmtotop.xml",
+  "name": "Module ☆ ToTop",
+  "packager": {
+    "name": "xtrmaddons.com",
+    "url": "https://www.xtrmaddons.com/",
+    "repo": "https://github.joomla.mod-xtrmtotop.xtrmaddons.com"
+  },
+  "platform": "^(3\\.)",
+  "plugin_folder": "",
+  "type": "module",
+  "versions": {
+    "framework": "4",
+    "framework_min": "0",
+    "package": "00",
+    "package_min": "00"
+  },
+  "files": [
+    "language/en-GB/en-GB.mod_xtrmtotop.ini",
+    "language/en-GB/en-GB.mod_xtrmtotop.sys.ini",
+    "language/fr-FR/fr-FR.mod_xtrmtotop.ini",
+    "language/fr-FR/fr-FR.mod_xtrmtotop.sys.ini",
+    "media/js/jquery.totop.js",
+    "media/js/jquery.totop.min.js",
+    "mod_xtrmtotop.php",
+    "mod_xtrmtotop.xml",
+    "script.php"
+  ],
+  "files_core": [
+    "media/image/scroll-to-top.png"
+  ]
+}

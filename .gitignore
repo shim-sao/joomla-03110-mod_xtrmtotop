@@ -1,0 +1,17 @@
+# Visual Code Projects
+.vscode/*
+
+# Eclipse projects
+/.settings/*
+/.buildpath
+/.project
+
+# Project
+/.build/*
+/_includes/*
+/_layouts/*
+/assets/*
+# /dist/*
+/docs/*
+/download/*
+/src/src.zip
