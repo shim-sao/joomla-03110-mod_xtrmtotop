@@ -1,6 +1,6 @@
 ---
 id: 252
-permalink: /docs/fr/02-uses.html
+permalink: /docs/fr/02-utilisation.html
 lang: fr-FR
 langISOlower: fr
 layout: content-only
