@@ -18,7 +18,7 @@ downloads:
   <div class="p-2 flex-grow-1">
     <h2>Introduction</h2>
     <p class="text-justify">
-      The Module Xtrm To Top is a module developed for Joomla to add customizable up back button to page.
+      The Module Xtrm ToTop is a module developed for Joomla to add customizable up back button to page.
     </p>
     <h3>The Module Xtrm ToTop characteristics</h3>
     <ul class="mb-3">
@@ -35,7 +35,7 @@ downloads:
           alt="Module Xtrm ToTop Backend" />
       </a>
     </figure>
-    <h2>Téléchargement</h2>
+    <h2>Download</h2>
     <table class="table table-hover">
       <thead>
         <tr>

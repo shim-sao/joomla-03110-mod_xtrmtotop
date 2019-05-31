@@ -21,7 +21,6 @@ size: 9.6 KB
       Le Module Xtrm To Top est est un module pour Joomla qui ajoute un bouton retour en haut de la page paramétrable.
     </p>
     <h3>Les caractéristiques du Module Xtrm ToTop</h3>
-    <h4>Les caractéristiques du Module Xtrm ToTop</h4>
     <ul class="mb-3">
       <li>Personnaliser la position du bouton.</li>
       <li>Personnaliser les dimensions du bouton.</li>
